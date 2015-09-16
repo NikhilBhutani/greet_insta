@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.apircot.greetinsta.MainActivity" >
+
+    
+      
+  <LinearLayout 
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_centerInParent="true"
+      android:layout_marginLeft="15dp"
+      android:layout_marginRight="15dp"
+      android:gravity="center"
+      android:orientation="vertical"      
+      >
+      
+      <ImageView 
+        
+        android:layout_width="wrap_content"
+        android:layout_height = "wrap_content"
+        android:src="@drawable/greet_insta"
+        />      
+    
+  
+    
+      
+        
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Enter_txt"
+        android:layout_marginBottom="5dp"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="@color/blue"
+        />         
+      
+     <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_form"
+        android:orientation="vertical"
+        android:layout_marginBottom="5dp"
+        >
+        
+        <EditText 
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:background="@null"
+            android:hint="@string/greetId"
+            android:padding="1dp"
+            android:singleLine="true"
+            android:id="@+id/greetid"
+            android:textColor="@color/black"
+            />
+        
+    </LinearLayout>
+      
+      
+        <Button
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="30dp"
+       android:background="@drawable/bg_button"
+       android:text="@string/login"
+       android:textColor="@color/white" android:onClick="RegisterUser"/>
+       
+  </LinearLayout>
+
+</RelativeLayout>

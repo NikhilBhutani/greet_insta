@@ -1,0 +1,25 @@
+<resources>
+     
+     <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="blue">#2E64FE</color>
+    <color name="lightblue">#F5FAED</color>
+  <!-- <color name="bg_gradient_start">#F5F6CE</color>  -->
+     <color name="bg_gradient_start">#7ddc1f</color>
+     <color name="bg_gradient_end">#31B404</color>
+     <color name="bg_button_login">#0B610B</color>
+       <color name="button_sendgreetings">#F1F0FF</color>
+   <!--   <color name="button_sendgreetings">#D8F781</color> -->
+     <color name="spinnerpopup">#FF7777</color> <!--  #09ACFB  -->
+     <color name="bgsendgreet">#FFCF79</color>
+     
+     <color name="gi_sndB">#00933B</color>
+    <!--  #15547E
+        Base application theme for API 11+. This theme completely replaces
+        AppBaseTheme from res/values/styles.xml on API 11+ devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!-- API 11 theme customizations can go here. -->
+    </style>
+
+</resources>

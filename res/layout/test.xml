@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgsendgreet"
+    android:orientation="vertical"
+     >
+
+   <!-- <TextView 
+            android:id="@+id/greet_text"
+            android:layout_width="300dp"
+            android:layout_height="25dp"
+            android:textSize="15sp"
+            android:text="Select the type of card:"/> -->
+    
+  <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:popupBackground="@color/spinnerpopup"
+        android:background="@color/spinnerpopup"
+        android:dropDownSelector="@drawable/arrow_icon"/>
+    <ImageView
+            android:id="@+id/imageDisplay"
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center_horizontal"
+            />
+
+ 
+    <Button
+        android:id="@+id/btnRotateImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next Greeting" 
+        android:layout_gravity="center"/>
+    
+     <EditText 
+        android:id="@+id/addmsg"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_form"
+        android:singleLine="true"
+        android:layout_gravity="center"
+        android:hint="TAP HERE TO ADD A MESSAGE"
+        android:textColor="@color/black"  />   
+   
+    <Button 
+        android:id="@+id/greet_to_a_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+         android:layout_marginTop="10dp" 
+        android:background="@drawable/gi_button_bg"
+        android:text="GREET~INSTA"/>
+     
+    
+</LinearLayout>
