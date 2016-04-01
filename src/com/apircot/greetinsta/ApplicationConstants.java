@@ -1,5 +1,7 @@
 package com.apircot.greetinsta;
 
+//Your own ApplicationConstants 
+
 public interface ApplicationConstants {
 
 	//php url to store the intial credentials
@@ -17,7 +19,7 @@ public interface ApplicationConstants {
     static final String CHECK_ID ="http://niksapp.host22.com/checkdb.php";
 	
 	//Google Project Id 
-	static final String GOOGLE_PRJ_KEY = "962079236510";   
+	static final String GOOGLE_PRJ_KEY = "***********"; //use your own project key.   
 	
 	static final String MSG_KEY="m";
 	static final String SENDER_KEY="n";
